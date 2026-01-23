@@ -1,0 +1,40 @@
+.header {
+    color: rgb(225, 238, 0, 0.966);
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+.content:hover {
+    color: black;
+    background-color: white;
+}
+
+.content:active {
+    color: blue;
+}
+
+.border-black {
+    border: 5px black solid;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: violet;
+}
