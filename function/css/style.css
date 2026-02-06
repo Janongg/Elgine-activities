@@ -1,0 +1,98 @@
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+
+        .calculator {
+            background: #d4d4d4;
+            border: 2px solid #999;
+            padding: 15px;
+            width: 300px;
+        }
+
+        .displays {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+
+        .screen {
+            background: #c8e6c9;
+            border: 1px solid #666;
+            padding: 10px;
+            height: 50px;
+            max-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow: hidden;
+        }
+
+        .number-screen {
+            flex: 3;
+        }
+
+        .operator-screen {
+            flex: 1;
+            justify-content: center;
+        }
+
+        #numberDisplay {
+            color: #000;
+            font-size: 1.8em;
+            text-align: right;
+            width: 100%;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        #operatorDisplay {
+            color: #000;
+            font-size: 1.8em;
+            text-align: center;
+            width: 100%;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+
+        button {
+            padding: 15px;
+            font-size: 1.3em;
+            border: 2px outset #aaa;
+            cursor: pointer;
+            color: #000;
+            background: #e0e0e0;
+            font-family: Arial, sans-serif;
+        }
+
+        button:hover {
+            background: #d0d0d0;
+        }
+
+        button:active {
+            border-style: inset;
+            background: #c0c0c0;
+        }
+
+        .zero {
+            grid-column: span 2;
+        }
