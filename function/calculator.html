@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./js/calculator.js"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <input type="text" id="screen" readonly>
-    <br>
+    <div class="calculator">
+        <div class="displays">
+            <div class="screen number-screen">
+                <div id="numberDisplay">0</div>
+            </div>
+            <div class="screen operator-screen">
+                <div id="operatorDisplay"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="setOperation('/')">/</button>
+            
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="setOperation('*')">*</button>
+            
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="setOperation('-')">-</button>
+            
+            <button class="zero" onclick="appendNumber('0')">0</button>
+            <button onclick="appendNumber('.')">.</button>
+            <button onclick="setOperation('+')">+</button>
+            
+            <button onclick="clearLast()">C</button>
+            <button onclick="clearAll()">AC</button>
+            <button onclick="calculate()" style="grid-column: span 2;">=</button>
+        </div>
+    </div>
 
-    <button onclick="press('7')">7</button>
-    <button onclick="press('8')">8</button>
-    <button onclick="press('9')">9</button>
-    <button onclick="press('/')">/</button>
-    <br>
-
-    <button onclick="press('4')">4</button>
-    <button onclick="press('5')">5</button>
-    <button onclick="press('6')">6</button>
-    <button onclick="press('*')">*</button>
-    <br>
-
-    <button onclick="press('1')">1</button>
-    <button onclick="press('2')">2</button>
-    <button onclick="press('3')">3</button>
-    <button onclick="press('-')">-</button>
-    <br>
-
-    <button onclick="press('0')">0</button>
-    <button onclick="press('.')">.</button>
-    <button onclick="calculate()">=</button>
-    <button onclick="press('+')">+</button>
-    <br>
-
-    <button onclick="allClear()">AC</button>
-    <button onclick="clearLast()">C</button>
+    <script src="./js/calculator.js"></script>
 </body>
 </html>
