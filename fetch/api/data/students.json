@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "student_id": "2024-001",
+    "first_name": "Juan",
+    "last_name": "Dela Cruz",
+    "email": "juan.delacruz@school.edu",
+    "course": "BS Computer Science",
+    "year_level": 2,
+    "enrollment_date": "2024-08-01"
+  },
+  {
+    "id": 2,
+    "student_id": "2024-002",
+    "first_name": "Maria",
+    "last_name": "Santos",
+    "email": "maria.santos@school.edu",
+    "course": "BS Information Technology",
+    "year_level": 1,
+    "enrollment_date": "2024-08-01"
+  },
+  {
+    "id": 3,
+    "student_id": "2024-003",
+    "first_name": "Pedro",
+    "last_name": "Reyes",
+    "email": "pedro.reyes@school.edu",
+    "course": "BS Computer Science",
+    "year_level": 3,
+    "enrollment_date": "2023-08-01"
+  },
+  {
+    "id": 4,
+    "student_id": "2024-004",
+    "first_name": "Ana",
+    "last_name": "Garcia",
+    "email": "ana.garcia@school.edu",
+    "course": "BS Information Systems",
+    "year_level": 2,
+    "enrollment_date": "2024-08-01"
+  },
+  {
+    "id": 5,
+    "student_id": "2024-005",
+    "first_name": "Carlos",
+    "last_name": "Lopez",
+    "email": "carlos.lopez@school.edu",
+    "course": "BS Information Technology",
+    "year_level": 4,
+    "enrollment_date": "2022-08-01"
+  }
+]

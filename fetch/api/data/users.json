@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "email": "admin@school.edu",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "teacher1",
+    "password": "teacher123",
+    "email": "teacher1@school.edu",
+    "role": "teacher"
+  },
+  {
+    "id": 3,
+    "username": "marvin",
+    "password": "marvin123",
+    "email": "marvin@school.edu",
+    "role": "student"
+  }
+]
